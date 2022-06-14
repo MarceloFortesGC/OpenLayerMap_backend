@@ -1,0 +1,18 @@
+{
+  "name": "openlayermap_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend": "node src/index.js",
+    "online": "node src/online.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^5.0.8",
+    "ws": "^8.8.0"
+  }
+}
